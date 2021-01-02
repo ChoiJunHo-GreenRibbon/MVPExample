@@ -1,0 +1,17 @@
+MVP 란?
+ - Model, View, Presenter로 구성된 아키텍처 패턴입니다.
+ - View와 Model을 완전히 분리하기 위해 사용함
+
+
+MVP의 View 란?
+ - 실제 view에 대한 직접적인 접근을 담당합니다. (액티비티/프래그먼트는 뷰의 일부로 정의합니다.)
+ - View에서 발생하는 이벤트는 View에서 핸들링 가능하나 Presenter에 위임합니다.
+ - View와 Present를 분리하면 비즈니스 코드가 분리되어 뷰에 종속되지 않고 UnitTest가 가능합니다.
+
+MVP의 Presenter 란?
+ - MVC패턴에 Controller와 같지만 뷰에 연결되는것이 아닌 interface로 연결된다는 점이 다릅니다.
+ - Presenter의 역할을 한줄로 표현하면 View와 Model 사이에서의 자료 전달 역할을 합니다.
+
+MVP의 Model 이란?
+ - 앱 데이터 및 상태에 대한 비즈니스 로직을 수행합니다.
+ (비즈니스 로직)이란? : 데이터를 [생성, 표시, 저장, 변경] 하는 부분을 말합니다.
