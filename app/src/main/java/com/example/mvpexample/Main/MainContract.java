@@ -1,4 +1,4 @@
-package com.example.mvpexample;
+package com.example.mvpexample.Main;
 
 public interface MainContract {
 

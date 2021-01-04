@@ -1,10 +1,11 @@
 package com.example.mvpexample;
 
+import com.example.mvpexample.Main.MainContract;
+import com.example.mvpexample.Main.MainPresenter;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-
-import static org.junit.Assert.*;
 
 public class MainPresenterTest {
 

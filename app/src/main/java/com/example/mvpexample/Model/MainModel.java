@@ -1,4 +1,6 @@
-package com.example.mvpexample;
+package com.example.mvpexample.Model;
+
+import com.example.mvpexample.Main.MainContract;
 
 public class MainModel {
     MainContract.Presenter presenter;
